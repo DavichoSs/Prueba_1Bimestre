@@ -20,6 +20,9 @@ if opc==1:
 	print("El vector 1 es: "+str(b))
 	print("El vector 2 es: "+str(c))
 	print("El vector resultante es: "+str(d))
-pass
 elif opc==2:
-	for i in range(0,3)
+	promedio=0
+	for i in range(0,3):
+		s=int(input("Ingrese numero "+str(i+1)+": "))
+		promedio=s+promedio
+	print(promedio)
