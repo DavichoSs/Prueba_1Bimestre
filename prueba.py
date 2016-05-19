@@ -7,10 +7,13 @@ if opc==1:
 	for i in range(0,3):
 		x=int(input('Ingrese posicion '+str(i)+' del primer vector: '))
 		b.append(x)
+	print("\n")
 	for j in range(0,3):
 		y=int(input('ingrese posicion '+str(j)+' del segundo vector: '))
 		c.append(y)
+	print("\n")
 	for k in range(0,3):
 		z=int(input('ingrese posicion '+str(k)+' del tercer vector: '))
 		d.append(y)
+	print("\n")
 pass
