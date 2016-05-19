@@ -13,7 +13,11 @@ if opc==1:
 		c.append(y)
 	print("\n")
 	for k in range(0,3):
-		z=int(input('ingrese posicion '+str(k)+' del tercer vector: '))
-		d.append(y)
+		valor=b[k]+c[k]
+		d.append(valor)
+		
 	print("\n")
+	print(b)
+	print(c)
+	print(d)
 pass
