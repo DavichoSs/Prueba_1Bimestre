@@ -23,5 +23,7 @@ if opc==1:
 pass
 
 if opc==2:
-	while:
+	num=1
+	while (num!=0):
+		num=int(input('ingrese cualquier cantidad de numeros'))
 		pass
