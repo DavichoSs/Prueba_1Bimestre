@@ -20,10 +20,17 @@ if opc==1:
 	print("El vector 1 es: "+str(b))
 	print("El vector 2 es: "+str(c))
 	print("El vector resultante es: "+str(d))
-pass
 
 if opc==2:
 	num=1
+	promedio=0
+	res=0
+	a=[]
 	while (num!=0):
-		num=int(input('ingrese cualquier cantidad de numeros'))
-		pass
+		num=int(input('Ingrese cualquier cantidad de numeros: '))
+		res=res+1
+		a.append(num)
+		promedio=promedio+num
+	a.sort()
+	print("Los numeros ingresados son: "+str(a))
+	print("El promedio es: "+str(promedio/(res-1)))
