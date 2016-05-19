@@ -35,11 +35,82 @@ if opc==2:
 	a.sort()
 	print("Los numeros ingresados son: "+str(a))
 	print("El promedio es: "+str(promedio/(res-1)))
-<<<<<<< HEAD
-if opc==4:
-	print("ADIOS")
-=======
+if opc==3:
+	print("NO DEFINIDA")
+	'''
+	def archivo():
+	archi= open('libro.txt', 'r')
+	linea = archi.readline()
+	b = len(linea)
+	a=round(b,0)
+	archi.close()
+	print (a)
+	return a
 
+	tex=archivo()
+
+def dividir_archi(tex):
+	c=tex/3
+	res=round(c,0)
+	print(res)
+	return res
+
+total = dividir_archi(tex)
+
+def grabaTxt1(tot):
+	archi= open('libro.txt', 'w')
+	linea = archi.readline()
+	archi.close()
+	primero=linea[:tot]
+	archi=open('primera_parte.txt','a')
+	archi.write(primero)
+
+def grabarTxt2(tot):
+	x=tot+tot
+	archi= open('libro.txt', 'w')
+	linea = archi.readline()
+	archi.close()
+	archi=open('segunda_parte.txt','a')
+	segundo=linea[:x]
+	archi.write(segundo)
+def grabarTxt3(tot):
+	y=tot+tot+tot
+	archi= open('libro.txt', 'w')
+	linea = archi.readline()
+	archi.close()
+	archi=open('tercera_parte.txt','a')
+	tecero=linea[:y]
+	archi.write(tercero)
+
+def creartxt():
+	archi=open('primera_parte.txt','a')
+	grabaTxt1(total)	#archi.write()
+	archi.close()
+def creartxt2():
+	archi=open('segunda_parte.txt','a')
+	grabarTxt2(total)
+	archi.close()
+def creartxt3():
+	archi=open('tercera_parte.txt','a')
+	grabarTxt3(total)
+	archi.close()
+
+
+def crear_archi(tot,tex):
+	for i in range (0,tex):
+		if i==tot:
+			creartxt()
+			#grabaTxt(total)
+			print (i)
+		if i==tot+tot:
+			creartxt2()
+			print (i)
+		if i==tot+tot+tot:
+			creartxt3()
+			print (i)
+		
+resultado=crear_archi(total,tex)
+		
+'''
 if opc==4:
 	exit()
->>>>>>> origin/master
