@@ -34,3 +34,6 @@ if opc==2:
 	a.sort()
 	print("Los numeros ingresados son: "+str(a))
 	print("El promedio es: "+str(promedio/(res-1)))
+
+if opc==4:
+	exit()
