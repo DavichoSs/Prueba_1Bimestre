@@ -9,7 +9,7 @@ if opc==1:
 		b.append(x)
 	print("\n")
 	for j in range(0,3):
-		y=int(input('ingrese posicion '+str(j)+' del segundo vector: '))
+		y=int(input('Ingrese posicion '+str(j)+' del segundo vector: '))
 		c.append(y)
 	print("\n")
 	for k in range(0,3):
@@ -17,7 +17,7 @@ if opc==1:
 		d.append(valor)
 		
 	print("\n")
-	print(b)
-	print(c)
-	print(d)
+	print("El vector 1 es: "+str(b))
+	print("El vector 2 es: "+str(c))
+	print("El vector resultante es: "+str(d))
 pass
