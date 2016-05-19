@@ -21,3 +21,5 @@ if opc==1:
 	print("El vector 2 es: "+str(c))
 	print("El vector resultante es: "+str(d))
 pass
+elif opc==2:
+	for i in range(0,3)
