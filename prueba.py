@@ -1,4 +1,5 @@
 print('ESCUELA POLITECNICA NACIONAL'+'\nPrueba Primer Bimestre\n')
+print("Alexander Figueroa \nRuben Pozo \nJean Carlos Chamba \n Santiago Toapanta")
 opc=int(input('Escoja una de las siguientes opciones:'+'\n1.- Suma de vectores'+'\n2.- Ingresar numeros'+'\n3.- Dividir en tres partes un archivo de texto'+'\n4.- Salir\n'))
 if opc==1:
 	b=[]
@@ -34,3 +35,5 @@ if opc==2:
 	a.sort()
 	print("Los numeros ingresados son: "+str(a))
 	print("El promedio es: "+str(promedio/(res-1)))
+if opc==4:
+	print("ADIOS")
